@@ -1,0 +1,405 @@
+//app principal
+
+import ChisteAleatorio from "./components/ChisteAleatorio";
+
+function App() {
+  return (
+    <div>
+      <ChisteAleatorio />
+    </div>
+  );
+}
+
+export default App;
+
+----------------------
+
+e1
+
+import ChisteAleatorio from "./components/ChisteAleatorio";
+
+function App() {
+  return (
+    <div>
+      <ChisteAleatorio />
+    </div>
+  );
+}
+
+export default App;
+
+--------------------------
+
+e2
+
+import ChisteAleatorio from "./components/ChisteAleatorio";
+import ChistePorCategoria from "./components/ChistePorCategoria";
+
+function App() {
+  return (
+    <div>
+      <ChisteAleatorio />
+      <hr />
+      <ChistePorCategoria />
+    </div>
+  );
+}
+
+export default App;
+
+--------------------
+
+e3
+
+import ChisteAleatorio from "./components/ChisteAleatorio";
+import ChistePorCategoria from "./components/ChistePorCategoria";
+import BuscarChistes from "./components/BuscarChistes";
+
+function App() {
+  return (
+    <div>
+      <ChisteAleatorio />
+      <hr />
+      <ChistePorCategoria />
+      <hr />
+      <BuscarChistes />
+    </div>
+  );
+}
+
+export default App;
+
+------------------------------
+
+e4
+
+mismo e3
+
+-------------------------
+
+e5
+
+import ChisteAleatorio from "./components/ChisteAleatorio";
+import ChistePorCategoria from "./components/ChistePorCategoria";
+import BuscarChistes from "./components/BuscarChistes";
+import BuscarCoctel from "./components/BuscarCoctel";
+
+function App() {
+  return (
+    <div>
+      <ChisteAleatorio />
+      <hr />
+      <ChistePorCategoria />
+      <hr />
+      <BuscarChistes />
+      <hr />
+      <BuscarCoctel />
+    </div>
+  );
+}
+
+export default App;
+
+-----------------------------
+e6
+
+import ChisteAleatorio from "./components/ChisteAleatorio";
+import ChistePorCategoria from "./components/ChistePorCategoria";
+import BuscarChistes from "./components/BuscarChistes";
+import BuscarCocktail from "./components/BuscarCocktail";
+import CocktailsPorCategoria from "./components/CocktailsPorCategoria";
+
+function App() {
+  return (
+    <div>
+      <ChisteAleatorio />
+      <hr />
+      <ChistePorCategoria />
+      <hr />
+      <BuscarChistes />
+      <hr />
+      <BuscarCocktail />
+      <hr />
+      <CocktailsPorCategoria />
+    </div>
+  );
+}
+
+export default App;
+
+--------------------------
+
+e8
+
+import ChisteAleatorio from "./components/ChisteAleatorio";
+import ChistePorCategoria from "./components/ChistePorCategoria";
+import BuscarChistes from "./components/BuscarChistes";
+import BuscarCocktail from "./components/BuscarCocktail";
+import CocktailsPorCategoria from "./components/CocktailsPorCategoria";
+import CocktailsPorIngrediente from "./components/CocktailsPorIngrediente";
+
+function App() {
+  return (
+    <div>
+      <ChisteAleatorio />
+      <hr />
+      <ChistePorCategoria />
+      <hr />
+      <BuscarChistes />
+      <hr />
+      <BuscarCocktail />
+      <hr />
+      <CocktailsPorCategoria />
+      <hr />
+      <CocktailsPorIngrediente />
+    </div>
+  );
+}
+
+export default App;
+
+----------------
+
+e9
+
+import ChisteAleatorio from "./components/ChisteAleatorio";
+import ChistePorCategoria from "./components/ChistePorCategoria";
+import BuscarChistes from "./components/BuscarChistes";
+import BuscarCocktail from "./components/BuscarCocktail";
+import CocktailsPorCategoria from "./components/CocktailsPorCategoria";
+import CocktailsPorIngrediente from "./components/CocktailsPorIngrediente";
+import CocktailAleatorio from "./components/CocktailAleatorio";
+
+function App() {
+  return (
+    <div>
+      <ChisteAleatorio />
+      <hr />
+      <ChistePorCategoria />
+      <hr />
+      <BuscarChistes />
+      <hr />
+      <BuscarCocktail />
+      <hr />
+      <CocktailsPorCategoria />
+      <hr />
+      <CocktailsPorIngrediente />
+      <hr />
+      <CocktailAleatorio />
+    </div>
+  );
+}
+
+export default App;
+----------------------
+
+e10
+
+import ChisteAleatorio from "./components/ChisteAleatorio";
+import ChistePorCategoria from "./components/ChistePorCategoria";
+import BuscarChistes from "./components/BuscarChistes";
+import BuscarCocktail from "./components/BuscarCocktail";
+import CocktailsPorCategoria from "./components/CocktailsPorCategoria";
+import CocktailsPorIngrediente from "./components/CocktailsPorIngrediente";
+import CocktailAleatorio from "./components/CocktailAleatorio";
+import CocktailsPorTipo from "./components/CocktailsPorTipo";
+
+function App() {
+  return (
+    <div>
+      <ChisteAleatorio />
+      <hr />
+      <ChistePorCategoria />
+      <hr />
+      <BuscarChistes />
+      <hr />
+      <BuscarCocktail />
+      <hr />
+      <CocktailsPorCategoria />
+      <hr />
+      <CocktailsPorIngrediente />
+      <hr />
+      <CocktailAleatorio />
+      <hr />
+      <CocktailsPorTipo />
+    </div>
+  );
+}
+
+export default App;
+
+------------------------------
+
+e11
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ChisteAleatorio from "./components/ChisteAleatorio";
+import ChistePorCategoria from "./components/ChistePorCategoria";
+import BuscarChistes from "./components/BuscarChistes";
+import BuscarCocktail from "./components/BuscarCocktail";
+import CocktailsPorCategoria from "./components/CocktailsPorCategoria";
+import CocktailsPorIngrediente from "./components/CocktailsPorIngrediente";
+import CocktailAleatorio from "./components/CocktailAleatorio";
+import CocktailsPorTipo from "./components/CocktailsPorTipo";
+import ListadoComponent from "./components/ListadoComponent";
+import DetalleComponent from "./components/DetalleComponent";
+
+function Home() {
+  return (
+    <div>
+      <ChisteAleatorio />
+      <hr />
+      <ChistePorCategoria />
+      <hr />
+      <BuscarChistes />
+      <hr />
+      <BuscarCocktail />
+      <hr />
+      <CocktailsPorCategoria />
+      <hr />
+      <CocktailsPorIngrediente />
+      <hr />
+      <CocktailAleatorio />
+      <hr />
+      <CocktailsPorTipo />
+      <hr />
+      <ListadoComponent />
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/detalle/:id" element={<DetalleComponent />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;
+
+----------------------------------
+
+e12
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ChisteAleatorio from "./components/ChisteAleatorio";
+import ChistePorCategoria from "./components/ChistePorCategoria";
+import BuscarChistes from "./components/BuscarChistes";
+import BuscarCocktail from "./components/BuscarCocktail";
+import CocktailsPorCategoria from "./components/CocktailsPorCategoria";
+import CocktailsPorIngrediente from "./components/CocktailsPorIngrediente";
+import CocktailAleatorio from "./components/CocktailAleatorio";
+import CocktailsPorTipo from "./components/CocktailsPorTipo";
+import ListadoComponent from "./components/ListadoComponent";
+import DetalleComponent from "./components/DetalleComponent";
+import PersonajesLista from "./components/PersonajesLista";
+
+function Home() {
+  return (
+    <div>
+      <ChisteAleatorio />
+      <hr />
+      <ChistePorCategoria />
+      <hr />
+      <BuscarChistes />
+      <hr />
+      <BuscarCocktail />
+      <hr />
+      <CocktailsPorCategoria />
+      <hr />
+      <CocktailsPorIngrediente />
+      <hr />
+      <CocktailAleatorio />
+      <hr />
+      <CocktailsPorTipo />
+      <hr />
+      <ListadoComponent />
+      <hr />
+      <PersonajesLista />
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/detalle/:id" element={<DetalleComponent />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;
+---------------------------
+
+e13
+
+import BuscarPersonajes from "./components/BuscarPersonajes";
+
+
+<hr />
+<BuscarPersonajes />
+
+------------------------
+
+e14
+
+import DetallePersonaje from "./components/DetallePersonaje";
+
+
+<Route path="/personaje/:id" element={<DetallePersonaje />} />
+
+-------------------------
+
+e15
+
+import EpisodiosLista from "./components/EpisodiosLista";
+
+
+<hr />
+<EpisodiosLista />
+
+--------------------------
+
+e16
+
+import FiltrarPersonajes from "./components/FiltrarPersonajes";
+
+// Dentro de Home, después de EpisodiosLista:
+<hr />
+<FiltrarPersonajes />
+---------------------------
+
+e17
+
+import PersonajesTabla from "./components/PersonajesTabla";
+
+// Dentro de Home, después de FiltrarPersonajes:
+<hr />
+<PersonajesTabla />
+-------------------------
+
+e18
+
+----------------------------
+
+---------------------------
+
+e19
+
+-------------------------
+
+e20
+
+----------------------------
+
+---------------------------
+
+e21
+
