@@ -355,7 +355,11 @@ import DetallePersonaje from "./components/DetallePersonaje";
 
 <Route path="/personaje/:id" element={<DetallePersonaje />} />
 
--------------------------
+
+======================================================================================================================
+//DESDE EL EJERCICIO NUMERO 15, LAS UNICAS MODIFICACIONES QUE LLEVAN LOS App.jsx, SON DE IMPORT Y HR CORRESPONDIENTES. 
+//ESTO PORQUE LOS ULTIMOS 7 EJERCICIOS, COMPARTEN EL MISMO APP.JSX
+======================================================================================================================
 
 e15
 
@@ -371,7 +375,6 @@ e16
 
 import FiltrarPersonajes from "./components/FiltrarPersonajes";
 
-// Dentro de Home, después de EpisodiosLista:
 <hr />
 <FiltrarPersonajes />
 ---------------------------
@@ -380,7 +383,7 @@ e17
 
 import PersonajesTabla from "./components/PersonajesTabla";
 
-// Dentro de Home, después de FiltrarPersonajes:
+
 <hr />
 <PersonajesTabla />
 -------------------------
